@@ -23,3 +23,13 @@ Step 5:
 To open the current directory in the Mac Terminal using the default file explorer (Finder), you can use the open command followed by a dot (.) to refer to the current directory. Here's how you can do it:
 
 open .
+
+----------------------------------------------------------------------------------------------------
+Add everything inside the folder 
+
+git add .
+
+
+Add the readme fle only
+
+git add readme.txt
