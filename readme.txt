@@ -33,3 +33,5 @@ git add .
 Add the readme fle only
 
 git add readme.txt
+
+cd .. (go up a file)
