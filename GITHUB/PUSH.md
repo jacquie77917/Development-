@@ -24,4 +24,10 @@ Push to github
 git push -u origin master
 ```
 
+### 4. Check Status
 
+to check repository status 
+
+```bash
+git status
+```
