@@ -37,5 +37,3 @@ Check current status of the commit
 ```bash
 git status
 ```
-
-
