@@ -1,11 +1,9 @@
 # HTML Notes
 
-
-
 ### A hack to make the image scale with the browser
 
-```bash
-width="100%"
+```html
+<input type=""  width=100%>
 ```
 
 ### Input Tag
