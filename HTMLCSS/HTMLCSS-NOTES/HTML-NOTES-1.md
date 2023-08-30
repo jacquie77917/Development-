@@ -36,13 +36,32 @@ If you want the image to scale with the browser, you can add the attribute width
 ```html
 <img src="" width="100%"> 
 ```
-```
 
-### A hack to make the image scale with the browser
+## Nesting Tags
+
+### Div Tag
+
+<div></div> tag is like a container. It envelops the html tags like its children. However, it doesn't change th layout of the page. It isi invisible but it will improve the readibility for any coders. Like you can div an article and style it with CSS. Div can nest multipe div tags under it and become an "HTMl document tree".
 
 ```html
-<input type=""  width=100%>
+<div>
+    <h1></h1>
+    <h2></h2>
+   <div> <p></p></div>
+    <img src:"">
+
+</div>
 ```
+
+## Interactive Tags
+
+### Button Tag
+
+```html
+<botton> Sign up</button>
+```
+
+
 
 ### Input Tag
 
@@ -51,5 +70,3 @@ After the input tag, you need to specify the text type.
 ```bash
 type="date" type="time" type="color"
 ```
-
-## Nesting Tags
