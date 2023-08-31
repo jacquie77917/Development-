@@ -37,6 +37,17 @@ If you want the image to scale with the browser, you can add the attribute width
 <img src="" width="100%"> 
 ```
 
+### Anchor Tag
+
+An anchor tag  is when you want to insert a hypter link. You can also nest an anchor tag inside another tag. The tagart="_blank" allows the link to be opened in a new tab. 
+
+```html
+<a> href:""Click here</a>
+<p>Please click <a href:"google.com" tagart="_blank">here</a>.</p>
+```
+
+
+
 ## Nesting Tags
 
 ### Div Tag
@@ -61,12 +72,21 @@ If you want the image to scale with the browser, you can add the attribute width
 <botton> Sign up</button>
 ```
 
-
-
 ### Input Tag
 
-After the input tag, you need to specify the text type.
+The input tag is a self-closing tag.。After the input tag, you need to specify the text type. So adding the "type" attribute inside the input tag is necessary. And the value of the type can be a range of options. like "text" . The "placeholder" attribute can be added after the "type attribute " to indicate what people have to input in the text box. 
 
-```bash
-type="date" type="time" type="color"
+```hmtl
+<input type="text" placeholder="Enter your username">
+<input type="password" placeholder="Enter your password">
+<input type="date">
+<input type="time">
+<input type="color">
+<input type="file">
+```
+
+### Document Structure
+
+```html
+
 ```
