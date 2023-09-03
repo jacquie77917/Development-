@@ -20,7 +20,7 @@ cd ../../..
 
 ### Create a file
 
-This command alloqs you to create a file(the file needs to have an extension)
+This command allows you to create a file(the file needs to have an extension)
 
 ```bash
 touch filename.txt

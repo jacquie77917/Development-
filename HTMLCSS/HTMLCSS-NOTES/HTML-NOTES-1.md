@@ -46,8 +46,6 @@ An anchor tag  is when you want to insert a hypter link. You can also nest an an
 <p>Please click <a href:"google.com" tagart="_blank">here</a>.</p>
 ```
 
-
-
 ## Nesting Tags
 
 ### Div Tag
@@ -88,5 +86,19 @@ The input tag is a self-closing tag.。After the input tag, you need to specify 
 ### Document Structure
 
 ```html
+<!doctype html> is not a tag. It's the metadata for the browser. 
+This is to tell the browser that we are using HTML 5.
 
+```
+
+```html
+<!doctype html>
+<html>
+    <head>
+    Metadata(styles,title,scripts.etc.)
+    </body>
+    <body>
+        The tage you see on the page
+    </head>
+</html>
 ```
