@@ -26,3 +26,45 @@ This element is to ass space on top of the page
 ```css
 margin-top: 20px; 
 ```
+
+### Div Tag
+
+controls the positioning of the elements it contains indirectly via the contatiner
+
+```html
+<div>
+    <img sr="google.png">
+    <input type="text">
+<div>
+```
+
+### How Div works in CSS for margin
+
+This is for a better sturcture just in case one html element is being revmoved or replaced  and led to the disappearnce of the margin 
+
+```css
+
+div {
+
+    margin-top= 200px; 
+
+}
+```
+
+### CSS Class for Div
+
+There could be thousands of div tags under another div tag. To style them individually, you need to set " CSS Class". For example, you call the first <div> main, then you have to go back to the CSS sheet to change the style from div { margin-top= 200px; to .main= 200px;}
+
+```html
+<div class="main">
+    <div>
+    
+    </div>
+</div>
+```
+
+```css
+.main{
+    margin-top= 200px;
+}
+```
