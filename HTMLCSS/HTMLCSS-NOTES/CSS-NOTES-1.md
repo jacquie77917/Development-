@@ -43,7 +43,6 @@ controls the positioning of the elements it contains indirectly via the contatin
 This is for a better sturcture just in case one html element is being revmoved or replaced  and led to the disappearnce of the margin 
 
 ```css
-
 div {
 
     margin-top= 200px; 
@@ -58,7 +57,7 @@ There could be thousands of div tags under another div tag. To style them indivi
 ```html
 <div class="main">
     <div>
-    
+
     </div>
 </div>
 ```
@@ -67,4 +66,25 @@ There could be thousands of div tags under another div tag. To style them indivi
 .main{
     margin-top= 200px;
 }
+```
+
+### Margins
+
+Note that if you add margin top/bottom collapes with eacher other(collapsing margins). The margin with a larger pixel will be the dominent one. 
+
+```css
+div {
+    margin-top=
+    margin-left=
+    margin-right=
+    margin-bottom=
+}
+```
+
+### Centering with Margins
+
+```css
+1.Display:block;
+2.Must have a width
+3.Margin left/right:auto
 ```
