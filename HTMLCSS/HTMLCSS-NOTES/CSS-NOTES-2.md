@@ -25,4 +25,10 @@ border-radius: 10px
 
 -Content
 
+### line-height
 
+When setting content height, use line-height instead of height. Line-height means the height for just one line. 
+
+```css
+line-height: 24px; 
+```
