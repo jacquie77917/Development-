@@ -88,7 +88,6 @@ The input tag is a self-closing tag.。After the input tag, you need to specify 
 ```html
 <!doctype html> is not a tag. It's the metadata for the browser. 
 This is to tell the browser that we are using HTML 5.
-
 ```
 
 ```html
