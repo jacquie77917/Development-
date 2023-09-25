@@ -29,10 +29,14 @@ I would end you!
 
 Image tag is a self-closing tag. To render the img, you have to add src=""
 
-If you want the image to scale with the browser, you can add the attribute width="100%" inside the img tag.
+If you want the image to scale with the browser, you can add the attribute width="100%" inside the img tag. 
+
+HTML attributes are special words used inside the opening tag of an element to control the element's behavior. The `src` attribute in an `img` element specifies the image's URL (where the image is located).
+
+All `img` elements should have an `alt` attribute. The `alt` attribute's text is used for screen readers to improve accessibility and is displayed if the image fails to load. For example, `<img src="cat.jpg" alt="A cat">` has an `alt` attribute with the text `A cat`.
 
 ```html
-<img src=""> 
+<img src="" alt=""> 
 ```html
 <img src="" width="100%"> 
 ```
