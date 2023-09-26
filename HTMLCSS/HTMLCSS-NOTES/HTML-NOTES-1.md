@@ -78,8 +78,12 @@ An anchor tag  is when you want to insert a hypter link. You can also nest an an
 
 The input tag is a self-closing tag.。After the input tag, you need to specify the text type. So adding the "type" attribute inside the input tag is necessary. And the value of the type can be a range of options. like "text" . The "placeholder" attribute can be added after the "type attribute " to indicate what people have to input in the text box. 
 
+In order for a form's data to be accessed by the location specified in the `action` attribute, you must give the text field a `name` attribute and assign it a value to represent the data being submitted. For example, you could use the following syntax for an email address text field: `<input type="text" name="email">`.
+
+To prevent a user from submitting your form when required information is missing, you need to add the `required` attribute to an `input` element. There's no need to set a value to the `required` attribute. Instead, just add the word `required` to the `input` element, making sure there is space between it and other attributes.
+
 ```hmtl
-<input type="text" placeholder="Enter your username">
+<input type="text" required name="catphotourl" placeholder="Enter your username">
 <input type="password" placeholder="Enter your password">
 <input type="date">
 <input type="time">
