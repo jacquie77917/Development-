@@ -70,8 +70,10 @@ An anchor tag  is when you want to insert a hypter link. You can also nest an an
 
 ### Button Tag
 
+You can add an attribute to assign what type of button this is .
+
 ```html
-<botton> Sign up</button>
+<botton type=""> Sign up </button>
 ```
 
 ### Input Tag
@@ -82,13 +84,42 @@ In order for a form's data to be accessed by the location specified in the `act
 
 To prevent a user from submitting your form when required information is missing, you need to add the `required` attribute to an `input` element. There's no need to set a value to the `required` attribute. Instead, just add the word `required` to the `input` element, making sure there is space between it and other attributes.
 
+You can use radio buttons for questions where you want only one answer out of multiple options.
+
 ```hmtl
 <input type="text" required name="catphotourl" placeholder="Enter your username">
 <input type="password" placeholder="Enter your password">
 <input type="date">
 <input type="time">
 <input type="color">
-<input type="file">
+<input type="file">  
+<input type="radio"> Indoor 
+```
+
+### Input attributes
+
+#### id
+
+The `id` attribute is used to identify specific HTML elements. Each `id` attribute's value must be unique from all other `id` values for the entire page.
+
+```html
+<input id="">
+```
+
+#### name
+
+Notice that both radio buttons can be selected at the same time. To make it so selecting one radio button automatically deselects the other, both buttons must have a `name` attribute with the same value.
+
+```html
+<input id="" name="">
+```
+
+### Lable element
+
+`label` elements are used to help associate the text for an `input` element with the `input` element itself (especially for assistive technologies like screen readers). For example, `<label><input type="radio"> cat</label>` makes it so clicking the word `cat` also selects the corresponding radio button.
+
+```html
+<label><input type="radio"> cat</label>
 ```
 
 ### Document Structure
