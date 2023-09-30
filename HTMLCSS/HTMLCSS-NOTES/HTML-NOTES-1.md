@@ -114,6 +114,24 @@ Notice that both radio buttons can be selected at the same time. To make it so s
 <input id="" name="">
 ```
 
+#### value
+
+If you select the `Indoor` radio button and submit the form, the form data for the button is based on its `name` and `value` attributes. Since your radio buttons do not have a `value` attribute, the form data will include `indoor-outdoor=on`, which is not useful when you have multiple buttons.
+
+Add a `value` attribute to both radio buttons. For convenience, set the button's `value` attribute to the same value as its `id` attribute.
+
+```html
+<input id="" value="" name="">
+```
+
+#### checkbox
+
+Forms commonly use checkboxes for questions that may have more than one answer. For example, here's a checkbox with the option of `tacos`: `<input type="checkbox"> tacos`.
+
+```html
+<input type="checkbox">
+```
+
 ### Lable element
 
 `label` elements are used to help associate the text for an `input` element with the `input` element itself (especially for assistive technologies like screen readers). For example, `<label><input type="radio"> cat</label>` makes it so clicking the word `cat` also selects the corresponding radio button.
