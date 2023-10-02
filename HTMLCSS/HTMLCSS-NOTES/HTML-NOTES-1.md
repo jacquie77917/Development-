@@ -120,6 +120,8 @@ If you select the `Indoor` radio button and submit the form, the form data for
 
 Add a `value` attribute to both radio buttons. For convenience, set the button's `value` attribute to the same value as its `id` attribute.
 
+*Like radio buttons, form data for selected checkboxes are `name` / `value` attribute pairs. While the `value` attribute is optional, it's best practice to include it with any checkboxes or radio buttons on the page.
+
 ```html
 <input id="" value="" name="">
 ```
@@ -130,6 +132,14 @@ Forms commonly use checkboxes for questions that may have more than one answer. 
 
 ```html
 <input type="checkbox">
+```
+
+#### check
+
+In order to make a checkbox checked or radio button selected by default, you need to add the `checked` attribute to it. There's no need to set a value to the `checked` attribute. Instead, just add the word `checked` to the `input` element, making sure there is space between it and other attributes.
+
+```html
+<label><input id="indoor" type="radio"checked name="indoor-outdoor" value="indoor"> Indoor</label>
 ```
 
 ### Lable element
