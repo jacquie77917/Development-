@@ -36,3 +36,24 @@ The `title` element determines what browsers show in the title bar or tab for 
 ```html
 <title></title>
 ```
+
+### HTML element
+
+Notice that the entire contents of the page are nested within an `html` element. All other elements must be descendants of this `html` element.Add the `lang` attribute with the value `en` to the opening `html` tag to specify that the language of the page is English.
+
+```html
+<html lang="en">
+```
+
+### <DOCTYPE html>
+
+All pages should begin with `<!DOCTYPE html>`. This special string is known as a declaration and ensures the browser tries to meet industry-wide specifications.
+
+### Meta element
+
+You can set browser behavior by adding self-closing `meta` elements in the `head`.Tell the browser to parse the markup into multiple languages by creating a `meta` element as a child of the `head` element. Set its `charset` attribute to `UTF-8`.
+
+```html
+<meta charset="UTF-8">
+
+```
