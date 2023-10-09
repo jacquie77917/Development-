@@ -55,5 +55,20 @@ You can set browser behavior by adding self-closing `meta` elements in the `h
 
 ```html
 <meta charset="UTF-8">
+```
 
+### Article element
+
+The `<article>` tag specifies independent, self-contained content.
+
+An article should make sense on its own and it should be possible to distribute it independently from the rest of the site.
+
+Potential sources for the `<article>` element:
+
+- Forum post
+- Blog post
+- News story
+
+```html
+<article></article>
 ```
