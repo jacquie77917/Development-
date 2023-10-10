@@ -64,7 +64,7 @@ There could be thousands of div tags under another div tag. To style them indivi
 
 ```css
 .main{
-    margin-top= 200px;
+    margin-top: 200px;
 }
 ```
 
@@ -74,10 +74,10 @@ Note that if you add margin top/bottom collapes with eacher other(collapsing mar
 
 ```css
 div {
-    margin-top=
-    margin-left=
-    margin-right=
-    margin-bottom=
+    margin-top:
+    margin-left:
+    margin-right:
+    margin-bottom:
 }
 ```
 
