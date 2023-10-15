@@ -3,7 +3,9 @@ body {
       font-family: sans-serif;
       padding: 20px;
     }
-    h1{font-size: 40px;}
+    h1{font-size: 40px;
+      margin-top: 0px;
+}
     h2{font-size: 30px;}
     h1, h2, p {
        text-align: center;
@@ -31,6 +33,7 @@ body {
       text-align: right;
       width: 25%;
     }
+   
     .item p {display: inline-block;
             margin-top: 5px;
             margin-bottom: 5px;
@@ -38,3 +41,9 @@ body {
 
     }
     .bottom-line{margin-top: 25px;}
+ /*footer */ 
+    footer{font-size: 14px;}
+    a {color: black;}
+    a:visited { color: black; }
+    a:hover { color: brown; }.
+    a:active { color: brown; }.
