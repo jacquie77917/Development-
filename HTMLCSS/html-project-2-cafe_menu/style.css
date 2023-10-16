@@ -5,6 +5,7 @@ body {
     }
     h1{font-size: 40px;
       margin-top: 0px;
+      margin-bottom: 15px;
 }
     h2{font-size: 30px;}
     h1, h2, p {
@@ -18,6 +19,11 @@ body {
       margin-right: auto;
       padding: 20px;
     }
+    img {display: block;
+      margin-right: auto;
+      margin-left: auto;
+      margin-top: -25px;
+}
     hr{height: 2px;
        background-color: brown;
        border-color: brown;
@@ -41,6 +47,7 @@ body {
 
     }
     .bottom-line{margin-top: 25px;}
+    .address{margin-bottom: 5px;}
  /*footer */ 
     footer{font-size: 14px;}
     a {color: black;}
