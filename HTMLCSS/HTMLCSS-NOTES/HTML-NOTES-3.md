@@ -20,4 +20,24 @@ The <hr> tag **defines a thematic break in an HTML page** (e.g. a shift of top
 
  The default value of a property named `border-width` is `1px` for all edges of `hr` elements.
 
+### Meta element
 
+The `<meta>` tag defines metadata about an HTML document. Metadata is data (information) about data.
+
+`<meta>` tags always go inside the <head> element, and are typically used to specify character set, page description, keywords, author of the document, and viewport settings.
+
+Metadata will not be displayed on the page, but is machine parsable.
+
+Metadata is used by browsers (how to display content or reload page), search engines (keywords), and other web services.
+
+There is a method to let web designers take control over the viewport (the user's visible area of a web page), through the `<meta>` tag (See "Setting The Viewport" example below). The content="width=device-width attribute allows your page looks the same on all devices.
+
+```html
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Free Web tutorials">
+  <meta name="keywords" content="HTML, CSS, JavaScript">
+  <meta name="author" content="John Doe">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+```
