@@ -54,6 +54,8 @@ div {
 
 There could be thousands of div tags under another div tag. To style them individually, you need to set " CSS Class". For example, you call the first <div> main, then you have to go back to the CSS sheet to change the style from div { margin-top= 200px; to .main= 200px;}
 
+You could add multiple values in class but putting a space in between.
+
 ```html
 <div class="main">
     <div>
@@ -87,4 +89,15 @@ div {
 1.Display:block;
 2.Must have a width
 3.Margin left/right:auto
+```
+
+### Margin Shorthand Property
+
+To center your thing on the page, set its `margin` property to `auto`. This sets `margin-top`, `margin-right`, `margin-bottom`, and `margin-left` all to `auto`.
+
+When the shorthand `margin` property has two values, it sets `margin-top` and `margin-bottom` to the first value, and `margin-left` and `margin-right` to the second value.
+
+```css
+.marker {margin: auto;}
+
 ```
