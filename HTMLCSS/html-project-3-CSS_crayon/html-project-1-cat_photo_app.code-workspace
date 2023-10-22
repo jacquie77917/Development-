@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "../html-project-1-cat_photo_app"
+		},
+		{
+			"path": "../html-project-2-cafe_menu"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "html-project-2-cafe_menu"
+	}
+}
