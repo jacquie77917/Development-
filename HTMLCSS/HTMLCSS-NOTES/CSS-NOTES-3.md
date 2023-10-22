@@ -111,6 +111,18 @@ Each red, green, and blue value is a number from `0` to `255`. `0` means th
 
 Hex color values start with a `#` character and take six characters from 0-9 and A-F. The first pair of characters represent red, the second pair represent green, and the third pair represent blue. For example, `#4B5320`.
 
+With hex colors, `00` is 0% of that color, and `FF` is 100%. So `#00FF00` translates to 0% red, 100% green, and 0% blue, and is the same as `rgb(0, 255, 0)`.
+
 ```css
 .green {background-color: #00FF00;}
+```
+
+### The HSL color model
+
+a HSL color model, or hue, saturation, and lightness, is another way to represent colors.
+
+The CSS hsl function accepts 3 values: a number from 0 to 360 for hue, a percentage from 0 to 100 for saturation, and a percentage from 0 to 100 for lightness.
+
+```css
+.blue{background-color: hsl(240, 100%,50%)}
 ```
