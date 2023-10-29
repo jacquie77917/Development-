@@ -60,3 +60,30 @@ a:active {
   color: #0000FF;
 }
 ```
+
+### Opacity
+
+ With the value `0`, or 0%, the element will be completely transparent, and at `1.0`, or 100%, the element will be completely opaque like it is by default.
+
+```css
+.sleeve {
+  width: 110px;
+  height: 25px;
+  background-color: white;
+  opacity: 0.5;
+}
+```
+
+### Alpha Channel
+
+To add an alpha channel to an `rgb` color, use the `rgba` function instead.
+
+The `rgba` function works just like the `rgb` function, but takes one more number from `0` to `1.0` for the alpha channel:
+
+```css
+.sleeve {
+  width: 110px;
+  height: 25px;
+  background-color: rgba(255, 255, 255, 0.5)
+}
+```
