@@ -87,3 +87,28 @@ The `rgba` function works just like the `rgb` function, but takes one more n
   background-color: rgba(255, 255, 255, 0.5)
 }
 ```
+
+### Box-shadow
+
+The `box-shadow` property lets you apply one or more shadows around an element. Here is basic syntax:
+
+```css
+box-shadow: offsetX offsetY color;
+```
+
+- both `offsetX` and `offsetY` accept number values in `px` and other CSS units
+- a positive `offsetX` value moves the shadow right and a negative value moves it left
+- a positive `offsetY` value moves the shadow down and a negative value moves it up
+- if you want a value of zero (`0`) for any or both `offsetX` and `offsetY`, you don't need to add a unit. Every browser understands that zero means no change.
+
+  If a `blurRadius` value isn't included, it defaults to `0` and produces sharp edges. The higher the value of `blurRadius`, the greater the blurring effect is.
+
+```css
+box-shadow: offsetX offsetY blurRadius(optional) color;
+```
+
+But what if you wanted to expand the shadow out further? You can do that with the optional `spreadRadius` value:
+
+```css
+box-shadow: offsetX offsetY blurRadius spreadRadius color;
+```
