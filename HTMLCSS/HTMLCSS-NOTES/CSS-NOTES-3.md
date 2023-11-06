@@ -97,10 +97,13 @@ box-shadow: offsetX offsetY color;
 ```
 
 - both `offsetX` and `offsetY` accept number values in `px` and other CSS units
-- a positive `offsetX` value moves the shadow right and a negative value moves it left
-- a positive `offsetY` value moves the shadow down and a negative value moves it up
-- if you want a value of zero (`0`) for any or both `offsetX` and `offsetY`, you don't need to add a unit. Every browser understands that zero means no change.
 
+- a positive `offsetX` value moves the shadow right and a negative value moves it left
+
+- a positive `offsetY` value moves the shadow down and a negative value moves it up
+
+- if you want a value of zero (`0`) for any or both `offsetX` and `offsetY`, you don't need to add a unit. Every browser understands that zero means no change.
+  
   If a `blurRadius` value isn't included, it defaults to `0` and produces sharp edges. The higher the value of `blurRadius`, the greater the blurring effect is.
 
 ```css
