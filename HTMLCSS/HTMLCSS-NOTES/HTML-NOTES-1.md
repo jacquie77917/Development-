@@ -150,6 +150,16 @@ In order to make a checkbox checked or radio button selected by default, you nee
 <label><input type="radio"> cat</label>
 ```
 
+#### For Attribute
+
+When used together with the `<label>` element, the `for` attribute specifies which form element a label is bound to.
+
+When used together with the `<output>` element, the `for` attribute specifies the relationship between the result of the calculation, and the elements used in the calculation.
+
+```html
+  <label for="first-name">Enter Your First Name: <input id="first-name" /></label>
+```
+
 ### Document Structure
 
 ```html
