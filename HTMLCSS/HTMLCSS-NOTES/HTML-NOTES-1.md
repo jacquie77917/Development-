@@ -78,7 +78,7 @@ You can add an attribute to assign what type of button this is .
 
 ### Input Tag
 
-The input tag is a self-closing tag.。After the input tag, you need to specify the text type. So adding the "type" attribute inside the input tag is necessary. And the value of the type can be a range of options. like "text" . The "placeholder" attribute can be added after the "type attribute " to indicate what people have to input in the text box. 
+The input tag is a self-closing tag.。After the input tag, you need to specify the text type. So adding the **"type"** attribute inside the input tag is necessary. And the value of the type can be a range of options. like "text" . The "placeholder" attribute can be added after the "type attribute " to indicate what people have to input in the text box. 
 
 In order for a form's data to be accessed by the location specified in the `action` attribute, you must give the text field a `name` attribute and assign it a value to represent the data being submitted. For example, you could use the following syntax for an email address text field: `<input type="text" name="email">`.
 
