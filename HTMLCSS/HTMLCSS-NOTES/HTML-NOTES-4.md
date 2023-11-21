@@ -1,11 +1,11 @@
-### Method Attribute
+### Pattern Attribute
 
-Method Attribute
+With `type="password"` you can use the `pattern` attribute to define a regular expression that the password must match to be considered valid.
 
-The method attribute **specifies how to send form-data** (the form-data is sent to the page specified in the action attribute). The form-data can be sent as URL variables (with method="get" ) or as HTTP post transaction (with method="post" ).
+Add a `pattern` attribute to the password `input` element to require the input match: `[a-z0-5]{8,}`
+
+The above is a regular expression which matches eight or more lowercase letters or the digits `0` to `5`.
 
 ```html
-<form action="https://register-demo.freecodecamp.org" method="post">
+<label for="new-password">Create a New Password: <input id="new-password" type="password" pattern="[a-z0-5]{8,}" required /></label>
 ```
-
-# 
