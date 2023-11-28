@@ -9,7 +9,19 @@ body {
 }
 ```
 
+### Viewport Width
 
+The full form of VW is **viewport width**. It works like the percentage unit. Specifying 10vw is equivalent to occupying 10% of entire visible screen width
+
+```css
+form{
+  margin: 0 auto;
+  max-width: 500px;
+  min-width: 300px;
+  width: 60vw;
+
+}
+```
 
 ### REM unit
 
