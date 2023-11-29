@@ -34,3 +34,32 @@ According to the [W3C spec](https://www.w3.org/TR/2013/CR-css3-values-20130730/
 #### REM VS. EM
 
 [https://ww[SitePoint](https://www.sitepoint.com/understanding-and-using-rem-units-in-css/)w.sitepoint.com/understanding-and-using-rem-units-in-css/](https://ww%5BSitePoint%5D(https://www.sitepoint.com/understanding-and-using-rem-units-in-css/)w.sitepoint.com/understanding-and-using-rem-units-in-css/)
+
+### :last-of-type
+
+The **`:last-of-type`** [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) [pseudo-class](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes) represents the last element of its type among a group of sibling elements.
+
+##### For example: Styling the last paragraph
+
+```html
+<h2>Heading</h2>
+<p>Paragraph 1</p>
+<p>Paragraph 2</p>
+```
+
+```css
+p:last-of-type {
+  color: red;
+  font-style: italic;
+}
+```
+
+### CSS [attribute] Selector
+
+he `[attribute]` selector is used to select elements with a specified attribute.
+
+```css
+a[target] {
+  background-color: yellow;
+}
+```
