@@ -27,6 +27,12 @@ input, textarea{
   margin: 0 0.5em 0 0;
   vertical-align: middle;
 }
+.inline{
+  display: inline; 
+}
+a {
+  color: #dfdfe2;
+}
 input[type="submit"]{
   display: block;
   width: 60%;
@@ -54,6 +60,7 @@ h1,p {
   max-width: 500px;
   min-width: 300px;
   width: 60vw;
+  padding-bottom: 2em;
 }
 fieldset{
   border: 0;
