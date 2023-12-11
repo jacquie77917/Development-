@@ -1,13 +1,15 @@
 body {
   margin: 20px;
 }
-.headshot {
-  width: 100px;
+
+.avatar {
+  width: 150px;
 }
+
 .card {
-  border: 1px dotted rgb(109, 109, 121);
   padding: 20px;
-}
-div {
   display: flex;
+}
+.border-blue {
+  border: 1px dotted blue;
 }
