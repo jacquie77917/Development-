@@ -61,5 +61,20 @@ he `[attribute]` selector is used to select elements with a specified attribut
 ```css
 a[target] {
   background-color: yellow;
-}
+} 
+```
+
+### CSS  justify-content Property
+
+The `justify-content` property aligns the flexible container's items when the items do not use all available space on the main-axis (horizontally).
+
+**Tip:** Use the `[align-items](https://www.w3schools.com/cssref/css3_pr_align-items.php)` property to align the items vertically.
+
+**Note:** The `justify-content` property can also be used on a grid container to align grid items in the inline direction. For pages in English, inline direction is left to right and block direction is downward.
+
+[CSS justify-content property](https://www.w3schools.com/cssref/css3_pr_justify-content.php)
+
+```css
+justify-content: flex-start|flex-end|center|space-between|space-around|space-evenly|initial|inherit;
+
 ```

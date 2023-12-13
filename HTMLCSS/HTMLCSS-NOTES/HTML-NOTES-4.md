@@ -52,5 +52,13 @@ The `id` attribute is needed to associate the text area with a label. 
 **Tip:** Always add the [<label>](https://www.w3schools.com/tags/tag_label.asp) tag for best accessibility practices!
 
 ```html
+<label for="w3review">Review of W3Schools:</label>
 
+<textarea id="w3review" name="w3review" rows="4" cols="50">
+At w3schools.com you will learn how to make a website. They offer free tutorials in all web development technologies.
+</textarea>
 ```
+
+### Utility tag
+
+Utilities are **simple HTML classes typically scoped to a single CSS property, like border-style or background-color** . Utilities can be used additively to style an object from scratch or to override a style defined in component CSS.
