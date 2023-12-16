@@ -76,5 +76,4 @@ The `justify-content` property aligns the flexible container's items when the 
 
 ```css
 justify-content: flex-start|flex-end|center|space-between|space-around|space-evenly|initial|inherit;
-
 ```

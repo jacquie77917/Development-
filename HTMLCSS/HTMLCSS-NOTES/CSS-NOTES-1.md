@@ -98,6 +98,5 @@ To center your thing on the page, set its `margin` property to `auto`. This s
 When the shorthand `margin` property has two values, it sets `margin-top` and `margin-bottom` to the first value, and `margin-left` and `margin-right` to the second value.
 
 ```css
-.marker {margin: auto;}
-
+.margin {margin: auto;}
 ```
