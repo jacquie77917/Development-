@@ -52,3 +52,19 @@ Refer to [any CSS property](https://developer.mozilla.org/en-US/docs/Web/CSS/Re
 39. `white-space`
 40. `widows`
 41. `word-spacing`
+
+### Shorthands for margin and padding
+
+For margin property, when there are 4 different values from all sides, to use the shorthand property, the order goes clockwise(top-right-bottom-left)
+
+```css
+.card{
+    margin: 10px 20px 30 px 40px;
+}
+```
+
+However, if the top and bottom (verticle)has the same value while the right and left (horizontal)have the same value, you can mark it as the following
+
+```css
+margin: 10px auto 
+```
