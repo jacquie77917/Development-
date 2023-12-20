@@ -68,3 +68,7 @@ However, if the top and bottom (verticle)has the same value while the right and 
 ```css
 margin: 10px auto 
 ```
+
+### Commet shortcut
+
+Commet+K+C
