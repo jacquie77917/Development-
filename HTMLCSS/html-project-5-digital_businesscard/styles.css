@@ -20,6 +20,7 @@ body {
   color: #5d97d1;
   border-bottom: 8px solid #72ddf7;
   border-radius: 30px;
+  text-shadow: 1px 1px;
 }
 .border-blue {
   border: 2px solid #ffadad;
