@@ -72,3 +72,13 @@ margin: 10px auto
 ### Commet shortcut
 
 Commet+K+C
+
+### Background Image
+
+```css
+body{
+    background-image: url("universe.jpg");
+    background-size: cover; 
+}
+/*cover is used to fit the whole image in the frame*?
+```
