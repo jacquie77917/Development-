@@ -2,4 +2,10 @@ body {
   color: white;
   background-image: url("universe.jpg");
   background-size: cover;
+  text-align: center;
+}
+.btn {
+  padding: 6px 12 px;
+  background: white;
+  border: none;
 }
