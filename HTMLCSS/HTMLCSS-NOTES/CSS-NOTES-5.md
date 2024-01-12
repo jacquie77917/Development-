@@ -53,6 +53,12 @@ Refer to [any CSS property](https://developer.mozilla.org/en-US/docs/Web/CSS/Re
 40. `widows`
 41. `word-spacing`
 
+```css
+body{
+    font-family: inherit; 
+}
+```
+
 ### Shorthands for margin and padding
 
 For margin property, when there are 4 different values from all sides, to use the shorthand property, the order goes clockwise(top-right-bottom-left)
